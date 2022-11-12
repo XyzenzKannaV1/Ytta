@@ -22,7 +22,7 @@ exports.run = {
                   title: 'ılılılllıılılıllllıılılllıllıılılılllıılılıllllıılılllıllı\nBroadcast Siesta',
                   thumbnail: await Func.fetchBuffer('https://telegra.ph/file/009ac092cb840a16c5da5.jpg'),
                   largeThumb: true,
-                  url: 'https://wa.me/6288980870067?text=Minta+Bokep+Bang',
+                  url: 'https://wa.me/6288980870067?text=Sewa+Bot+Mba',
                   mentionedJid: command == 'bcgc' ? await (await client.groupMetadata(jid)).participants.map(v => v.id) : []
                })
             }
