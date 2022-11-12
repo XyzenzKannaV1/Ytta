@@ -33,5 +33,7 @@ let info = () => {
 
 ➠ Revan
 
+➠ Ai Aharen
+
 *ALL CREATOR BOT*`
 }
