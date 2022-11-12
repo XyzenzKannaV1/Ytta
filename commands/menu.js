@@ -57,7 +57,7 @@ exports.run = {
             if (menuType == 1) {
                client.menu[id] = [
                   await client.sendMessageModify2(m.chat, await menu(m, readmore, global.db.setting, isPrefix), m, {
-            title: 'ılılllıllılllıllı\n© siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+            title: 'ılılllıllılllıllı\n© Siesta - Multi Device',
 	    largeThumb: true,	
             thumbnail: global.db.setting.cover
             }),
@@ -70,14 +70,14 @@ exports.run = {
                   await client.sendButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '', null, button, {
                     document: true
             }, {
-                title: 'ılılllıllılllıllı\nsiesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+                title: 'ılılllıllılllıllı\nSiesta - Multi Device',
                 thumbnail: await Func.fetchBuffer(global.db.setting.cover),
                 fileName: Func.greeting(m.pushName)
             })
                ]
             } else if (menuType == 3) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '                 siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)  ', buttons, {
+                  await client.sendTemplateButton(m.chat, global.db.setting.cover, await menu(m, readmore, global.db.setting, isPrefix), '                 Siesta - Multi Device ', buttons, {
                      document: true,
                      name: '© Siesta Md'
                   }),
@@ -183,7 +183,7 @@ const menu = async (m, readmore, setting, prefix) => {
    return `${/8|9/.test(global.db.setting.setmenu) ? Func.greeting('@' + m.sender.replace(/@.+/,'')) : Func.greeting(m.pushName || 'Beib')} (Lv. ${Func.level(global.db.users[m.sender].point)[0]})
 Saldo Rp. ${Func.h2k(Func.formatNumber(global.db.users[m.sender].point))}
 
-Im ᴋᴀɴɴᴀ ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ), *gunakan bot di private chat agar bot dapat merespon dengan cepat.*
+*Siesta - Multi Device,* *gunakan bot di private chat agar bot dapat merespon dengan cepat.*
 
 ◦ *Database* : Multi Database
 ◦ *Received* : ${Func.texted('bold', await Func.getSize(global.db.setting.receiveSize))}
