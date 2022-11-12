@@ -53,9 +53,9 @@ exports.run = {
          client.sendButton(m.chat, pic, caption, '⏱️ reset limit jam 00:00', m, buttons, {
                     document: true
             }, {
-                title: 'ılılılllıılılıllllıılılllıllı\n© Kanna chan',
+                title: 'ılılılllıılılıllllıılılllıllı\n© Siesta chan',
                 thumbnail: pic,
-                fileName: 'Faruqofc...🌷'
+                fileName: 'Aharen Chan...🌷'
             })
       }
    },
