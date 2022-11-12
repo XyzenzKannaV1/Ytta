@@ -108,7 +108,7 @@ module.exports = async (client, m, chatUpdate) => {
       }
       if (!m.fromMe && !m.isGroup && !users.banned) {
          if (setting.groupmode && !isOwner && !isPrem) {
-            if (!users.whitelist && m.text && (m.text.charAt(0) == myPrefix || Func.socmed(m.text)) && !/owner|premium|sewabot|batu|gunting|kertas/.test(m.text)) return client.sendMessageModify(m.chat, Func.texted('bold', `bot sedang dalam mode : khusus group*\n\nTidak bisa menggunakan bot di pesan pribadi\njika kamu ingin menggunakan di pesan pribadi\n*silahkan upgrade premium hanya 10rb*\nSilahkan ketik *.owner / .premium`), m, {
+            if (!users.whitelist && m.text && (m.text.charAt(0) == myPrefix || Func.socmed(m.text)) && !/owner|premium|sewabot|batu|gunting|kertas/.test(m.text)) return client.sendMessageModify(m.chat, Func.texted('bold', `bot sedang dalam mode : khusus group*\n\nTidak bisa menggunakan bot di pesan pribadi\njika kamu ingin menggunakan di pesan pribadi\n*silahkan upgrade premium hanya 5rb*\nSilahkan ketik *.owner / .premium`), m, {
             title: 'ılılılllıılılıllllıılılllıllı\nYah...Akses Kamu Di Tolak kak...🌷',
             largeThumb: true,
             thumbnail: await Func.fetchBuffer('https://telegra.ph/file/73cb2b865ab3beef12bf1.jpg'),
