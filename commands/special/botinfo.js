@@ -50,7 +50,7 @@ let info = () => {
 Untuk fitur bot bisa baca menu sampai selesai ya kak, dicoba coba dulu biar tau ( Ketik *.menu* )
 Silahkan hubungi owner ( Ketik *.owner* ) jika ingin menyewa bot untuk grup chat kalian
 
-➠ Sewa (Join Grup) harga 10K / bulan dan akan keluar otomatis saat masa aktif sudah habis, apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
+➠ Sewa (Join Grup) harga 3K / bulan dan akan keluar otomatis saat masa aktif sudah habis, apabila bot di kick dari grup sengaja atau tidak sengaja tidak bisa di join kan lagi (Hangus).
 
 ➠ Pembayaran saat ini hanya tersedia via Dana dan Rekening Bank.
 
@@ -58,5 +58,5 @@ Silahkan hubungi owner ( Ketik *.owner* ) jika ingin menyewa bot untuk grup chat
 
 ➠ *Penting!* simpan nomor owner dan join ke dalam grup official dibawah untuk mengetahui update nomor bot terbaru apabila ter-banned.
 
-Untuk upgrade premium hanya Rp. 10.000 per bulan ( *.infopremium* )`
+Untuk upgrade premium hanya Rp. 3.000 per bulan ( *.infopremium* )`
 }
