@@ -242,11 +242,11 @@ Socket = (...args) => {
          contextInfo: {
             mentions: parseMention(text),
             externalAdReply: {
-               title: '爪乇ㄥ•乃ㄖㄒ',
+               title: 'Siesta',
                mediaType: 2,
                mediaUrl: `https://jsonformatter.org`,
                body: '',
-               description: 'melbot',
+               description: 'Siesta',
                showAdAttribution: true,
                thumbnail: fs.readFileSync('./media/images/mel.jpg'),
                sourceUrl: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
@@ -269,11 +269,11 @@ Socket = (...args) => {
          contextInfo: {
             mentions: parseMention(text),
             externalAdReply: {
-               title: 'こんにちは私たち',
+               title: 'Siesta',
                mediaType: 2,
                mediaUrl: `https://jsonformatter.org`,
                body: '',
-               description: 'melbot',
+               description: 'Siesta',
                showAdAttribution: false,
                thumbnail: pic,
                sourceUrl: 'https://wa.me/6288980870067?text=sewabot+bang'
@@ -404,7 +404,7 @@ Socket = (...args) => {
       let list = []
       contact.map(v => list.push({
          displayName: v.name,
-         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Faruq...🌷안녕\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:admin@kanna\nURL;type=Website:https://kanna/.my.id\nADR;type=Dimana:;;Jawir🤓;;\nOther:${v.about}\nEND:VCARD`
+         vcard: `BEGIN:VCARD\nVERSION:3.0\nFN:${v.name}\nORG:Ai...🌷안녕\nTEL;type=CELL;type=VOICE;waid=${v.number}:${PhoneNumber('+' + v.number).getNumber('international')}\nEMAIL;type=Email:admin@siesta\nURL;type=Website:https://Siesta/.my.id\nADR;type=Dimana:;;Jateng🤓;;\nOther:${v.about}\nEND:VCARD`
       }))
       return client.sendMessage(jid, {
          contacts: {
@@ -856,7 +856,7 @@ Socket = (...args) => {
          contextInfo: {
             externalAdReply: {
                mediaType: 1,
-               title: opts && opts.title ? opts.title : '© RikkaBot',
+               title: opts && opts.title ? opts.title : '© SiestaBot',
                renderLargerThumbnail: true,
                thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
                thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
@@ -918,7 +918,7 @@ Socket = (...args) => {
          mediaType: 2,
          renderLargerThumbnail: true,
          showAdAttribution: true,
-         title: opts && opts.title ? opts.title : '© RikkaBot',
+         title: opts && opts.title ? opts.title : '© SiestaBot',
          thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
          thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
          sourceUrl: 'https://youtu.be/xfrIkvtcqME'
@@ -978,7 +978,7 @@ Socket = (...args) => {
          mediaType: 2,
          renderLargerThumbnail: false,
          showAdAttribution: false,
-         title: opts && opts.title ? opts.title : '© RikkaBot',
+         title: opts && opts.title ? opts.title : '© SiestaBot',
          thumbnail: opts && opts.thumbnail ? opts.thumbnail : await Func.fetchBuffer(global.db.setting.cover),
          thumbnailUrl: 'https://telegra.ph/?id=' + Func.makeId(8),
          sourceUrl: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
