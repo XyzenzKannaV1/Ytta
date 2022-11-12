@@ -894,4 +894,4 @@ class Function {
    
 }
 
-exports.Function = Functionn
+exports.Function = Function
