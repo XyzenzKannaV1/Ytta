@@ -112,7 +112,7 @@ exports.run = {
                ]
             } else if (menuType == 7) {
                client.menu[id] = [
-                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '                         *R I K K A B O T*', buttons),
+                  await client.sendTemplateButton(m.chat, await Func.fetchBuffer('./media/video/video.mp4'), await menu(m, readmore, global.db.setting, isPrefix), '                         *S I E S T A B O T*', buttons),
                   setTimeout(() => {
                      delete client.menu[id]
                   }, 180000)
