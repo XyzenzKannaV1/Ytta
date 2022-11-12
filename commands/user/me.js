@@ -6,7 +6,7 @@ exports.run = {
       blockList
    }) => {
       let user = global.db.users[m.sender]
-      let pic = await Func.fetchBuffer('./media/images/default.jpg')
+      let pic = await Func.fetchBuffer('./media/images/faruq.jpg')
       let _own = [...new Set([global.owner, ...global.db.setting.owners])]
       let _mods = [...new Set([global.mods, ...global.db.setting.mods])]
       try {
