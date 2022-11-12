@@ -191,7 +191,7 @@ const connect = async () => {
          if (groupSet.welcome) client.sendButton(gc.id, pic, `${txt}\n\n${readmore}${deskripsi}\n`, `${meta.subject}`, null, buttons, {
                     document: true
             }, {
-                title: 'siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+                title: 'Siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
                 thumbnail: pic,
                 fileName: 'Harap Jangan Racing'
             })
@@ -200,7 +200,7 @@ const connect = async () => {
          if (groupSet.left) client.sendButton(gc.id, pic, `${txt}\n\n${readmore}${deskripsi}\n`, `${meta.subject}`, null, buttons, {
                     document: true
             }, {
-               title: 'siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+               title: 'Siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
                thumbnail: pic,
                fileName: 'Harap Jangan Racing'
          })
