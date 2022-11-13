@@ -112,7 +112,7 @@ module.exports = async (client, m, chatUpdate) => {
             title: 'ılılılllıılılıllllıılılllıllı\nYah...Akses Kamu Di Tolak kak...🌷',
             largeThumb: true,
             thumbnail: await Func.fetchBuffer('https://telegra.ph/file/73cb2b865ab3beef12bf1.jpg'),
-            url: 'https://chat.whatsapp.com/KbgGdT1cV3rD5JzJDZryis'
+            url: 'https://chat.whatsapp.com/EdzT8EgHBSMEg1c8CerqoX'
          })            
          }
          if (m.msg && m.msg.type == 0) {
