@@ -19,7 +19,7 @@ exports.run = {
             rowId: `${isPrefix}paket3`,
             description: `Harga : Rp. 50,000 | Limit : ( ∞ ) Unlimited | 150 hari`
          }]
-         await client.sendList(m.chat, '', info(), '© Rikka Bot', 'Tap!', rows, m)
+         await client.sendList(m.chat, '', info(), '© Siesta Bot', 'Tap!', rows, m)
          } else if (command == 'paket1') {
          let teks = `*H A R G A - P R E M I U M*\n\n`
          teks += `	◦ *Paket* : Minimize\n`
@@ -58,7 +58,7 @@ Dengan mendaftar menjadi user premium anda akan mendapatkan keuntungan sebagai b
 2. mendapatkan unlimited limit
 3. bisa memainkan di pesan pribadi
 
-Silahkan hubungi owner ( *.owner* ) untuk melakukan upgrade premium hanya dengan Rp. 10.000 per bulan
+Silahkan hubungi owner ( *.owner* ) untuk melakukan upgrade premium hanya dengan Rp. 5.000 per bulan
 
 Invite bot ke GC kalian ? ketik *.sewabot*`
 }
