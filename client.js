@@ -191,18 +191,18 @@ const connect = async () => {
          if (groupSet.welcome) client.sendButton(gc.id, pic, `${txt}\n\n${readmore}${deskripsi}\n`, `${meta.subject}`, null, buttons, {
                     document: true
             }, {
-                title: 'Siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+                title: 'Welcome Semoga Betahh',
                 thumbnail: pic,
-                fileName: 'Harap Jangan Racing'
+                fileName: 'Harap Jangan Spam Yahh'
             })
       } else if (gc.action == 'remove') {
          let txt = (groupSet.textleft != '' ? groupSet.textleft : textleft).replace('+tag', `@${member.split`@`[0]}`).replace('+grup', `${meta.subject}`)
          if (groupSet.left) client.sendButton(gc.id, pic, `${txt}\n\n${readmore}${deskripsi}\n`, `${meta.subject}`, null, buttons, {
                     document: true
             }, {
-               title: 'Siesta ᴠ𝟸.𝟶.𝟽 (ᴘᴜʙʟɪᴄ ʙᴏᴛ)',
+               title: 'Selamat Tinggal Beban',
                thumbnail: pic,
-               fileName: 'Harap Jangan Racing'
+               fileName: 'Beban Keluar Karna Kena Mentall'
          })
       }
    })
