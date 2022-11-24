@@ -10,7 +10,7 @@ global.Func = new Function
 const { Scraper } = require('./system/scraper')
 global.scrap = new Scraper
 const { NeoxrApi } = require('./system/neoxrApi')
-global.Api = new NeoxrApi('5vY8PH')
+global.Api = new NeoxrApi('RikkaChan')
 global.store = makeInMemoryStore({
    logger: pino().child({
       level: 'silent',
