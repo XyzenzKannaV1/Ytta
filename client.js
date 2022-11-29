@@ -147,7 +147,7 @@ const connect = async () => {
       let meta = await (await client.groupMetadata(gc.id))
       let member = gc.participants[0]
       let textwel = Func.texted('bold', `Welcome Kak +tag👋 Jangan Lupa Semangat yah .`)
-      let textleft = Func.texted('bold', `+tag Keluar Karena Mw Nenen Sama Tante Ai Aharen😋`)
+      let textleft = Func.texted('bold', `+tag Keluar Karena Udah Kena Mental`)
       let readmore = String.fromCharCode(8206).repeat(4001)
       let deskripsi = await (await client.groupMetadata(gc.id)).desc.toString()
       let groupSet = global.db.groups[gc.id]
@@ -155,7 +155,7 @@ const connect = async () => {
       let buttons = [{
          buttonId: `Y`,
          buttonText: {
-                  displayText: 'HAI🙏\n\nAku Sange Nih Kocokin Dong😋'
+                  displayText: 'P\n\nGw Dingin Nih'
                },
                type: 1
             }, {
