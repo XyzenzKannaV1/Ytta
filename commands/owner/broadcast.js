@@ -20,9 +20,9 @@ exports.run = {
                await Func.delay(1500)
                await client.sendMessageModify(jid, text, null, {
                   title: 'ılılılllıılılıllllıılılllıllıılılılllıılılıllllıılılllıllı\nBroadcast Siesta',
-                  thumbnail: await Func.fetchBuffer('https://telegra.ph/file/009ac092cb840a16c5da5.jpg'),
+                  thumbnail: await Func.fetchBuffer('https://telegra.ph/file/16457f7260d4ab1bac364.jpg'),
                   largeThumb: true,
-                  url: 'https://wa.me/6288980870067?text=Sewa+Bot+Mba',
+                  url: 'https://wa.me/6288980870067?text=Sewa+Bot+Kak',
                   mentionedJid: command == 'bcgc' ? await (await client.groupMetadata(jid)).participants.map(v => v.id) : []
                })
             }
