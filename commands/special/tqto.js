@@ -5,7 +5,7 @@ exports.run = {
    }) => {
       client.sendMessageModify(m.chat, info(), m, {
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/9ba9f9702df4b33f6a2f2.jpg'),
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/321926e01f54c3d9a2886.jpg'),
             url: global.db.setting.link
             })         
    },
