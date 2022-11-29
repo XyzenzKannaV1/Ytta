@@ -36,7 +36,7 @@ exports.run = {
       text += '◦ *Response* : ' + ((new Date - old) * 1) + ' ms'
       client.sendMessageModify(m.chat, text, m, {
             largeThumb: true,
-            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/02a56b5432dd7ff3eb5b1.jpg'),
+            thumbnail: await Func.fetchBuffer('https://telegra.ph/file/cd40d9ad7e957a494403f.jpg'),
             url: global.db.setting.link
          })
    },
